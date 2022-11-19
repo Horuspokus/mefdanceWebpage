@@ -21,7 +21,7 @@
             <hr>
         </header>
 
-        <video src="videos/Tema Duyurusu.MOV" volume="-32db" autoplay loop> </video>
+        <video src="videos/Tema Duyurusu.MOV" muted autoplay loop> </video>
         <div class="overlay"></div>
 
         <div class="text">
@@ -30,9 +30,9 @@
         </div>
 
         <ul class="social">
-            <li>Youtube</li>
-            <li>Instagram</li>
-            <li>TikTok</li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
         </ul>
     </section>
 
@@ -44,6 +44,16 @@
             <li><a href="#">Takvim</a></li>
         </ul>
     </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
 
 </body>
 <footer>
