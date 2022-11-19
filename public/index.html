@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +12,43 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="images/site.webmanifest">
 </head>
-<header>
-    <img src="images/logo.png" alt="mefdance_logo" width="50%">
-    <hr>
-</header>
+
 <body>
-    <h1>mefdance</h1>
-    <video volume=50% src="videos/Tema Duyurusu.MOV" width="50%" height="30%" autoplay loop> </video>
-    <div>Welcome to mefdance</div>
-    
+    <section class="showcase">
+        <header>
+            <h2 class="logo"><img src="images/logo.png" alt="mefdance_logo" width="35%"></h2>
+            <div class="toggle"></div>
+            <hr>
+        </header>
+
+        <video src="videos/Tema Duyurusu.MOV" volume="-32db" autoplay loop> </video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Welcome to mefdance</h2>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li>Youtube</li>
+            <li>Instagram</li>
+            <li>TikTok</li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Türler</a></li>
+            <li><a href="#">Etkinlikler</a></li>
+            <li><a href="#">Takvim</a></li>
+        </ul>
+    </div>
+
 </body>
 <footer>
     <hr>
     <code>Copyright (c) 2022 by Gökhan Dönmez</code>
 </footer>
+
 </html>
